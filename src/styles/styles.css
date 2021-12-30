@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --teal:#20d0c4;
+    --darkblue:#12263A;
+    --background:linear-gradient(132deg, rgb(31, 207, 195) 47.57%, rgb(31, 145, 207) 100.00%);
+    --magicmint:#BEE6CE; 
+    --aeroblue: #BCFFDB;
+    --aquamarine: #8DFFCD;
+    --mediumaquamarine: #68D89B;
+    --forrestgreen: #4F9D69;
+}
+
+body{
+    max-width: 100%;
+    margin: 0;
+    background-color: var(--magicmint);
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-pic{
+    height: 125px;
+    width: 125px;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    color: var(--darkblue);
+    padding-top: 50px;
+}
+
+nav{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    
+}
+
+.reference{
+    background-color: var(--darkblue);
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.reference:link, .reference:visited {
+    color: var(--magicmint)
+}
+
+.reference:hover {
+    color: var(--aeroblue)
+}
+
+.sub{
+    margin-top: 0;
+    padding-top: 15px;
+    font-family: Ephesis; 
+}
+
+.upper-img{
+    display: flex;
+    /* background-image: url("../assets/images/412534-c.jpg"); */
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkblue)
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-aside{
+    border-bottom: 5px solid var(--aquamarine);
+    width: 100%;
+    color: var(--darkblue);
+    text-indent: 25px;
+
+}
+
+.about-me-main{
+    text-indent: 50px;
+    font-size: 22px;
+    color: var(--darkblue);
+    padding: 0px 10px 0px 10px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-aside{
+    border-bottom: 5px solid var(--aquamarine);
+    color: var(--darkblue);
+    text-indent: 25px;
+}
+
+.large-card{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    border: 5px solid var(--teal);
+    height: 21.8rem;
+    text-decoration: none;
+    position: relative;
+    margin-left: 4%;
+    margin-top: 30px;
+
+}
+
+.large-card:hover{
+    box-shadow: inset 0px 0px 8px var(--teal), 0 0 15px var(--teal);
+      
+}
+
+.label{
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(132deg, rgb(31, 207, 195) 47.57%, rgb(31, 145, 207) 100.00%);
+    bottom: 10%;
+    height: 75px;
+    color: var(--darkblue)
+
+}
+
+.label h3{
+    font-size: 26px;
+}
+
+.large-card a{
+    display:block;
+    width: 100%;
+}
+
+/* #card1{
+    background-image: url("../assets/images/project-screenshot/recipe-generator.png"); 
+    background-size: cover;
+}
+
+#card2{
+    background-image: url("../assets/images/project-screenshot/weather-dashboard.png");
+    background-size: cover;
+}
+
+#card3{
+    background-image: url("../assets/images/project-screenshot/scheduler.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#card4{ 
+    background-image: url("../assets/images/project-screenshot/quiz.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#card5{
+    background-image: url("../assets/images/project-screenshot/password-generator.png");
+    background-size: cover;
+    background-position: center;
+} */
+
+.repo-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--darkblue);
+    padding-left: 15px;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}   
+
+.contact-me-side{
+    color: var(--darkblue);
+    border-bottom: 5px solid var(--aquamarine);
+    text-indent: 25px;
+}
+
+.contact-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media (min-width: 770px) {
+
+    .reference{
+        text-indent: 25px;
+    }
+
+    .about-me{
+        flex-direction: row;
+        padding-top: 15px;
+    }
+
+    .about-me-aside{
+        border-bottom: none;
+        
+    }
+
+    .about-me-main{
+        border-left: 5px solid var(--aquamarine);
+    }
+
+    .work{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-aside{
+        display: flex;
+        border-right: 5px solid black;
+    }
+    
+    .work-main{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+
+    .large-card{
+        height: 700px;
+    }
+
+    .repo-link{
+        text-indent:60px;
+    }
+} 

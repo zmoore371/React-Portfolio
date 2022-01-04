@@ -64,6 +64,59 @@ nav{
     color: var(--aeroblue)
 }
 
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+/* set icons at footer */
+.github {
+    box-sizing: border-box;
+    height: 64px;
+    width: 64px;
+    /* background-image: url("../styles/icons/github.png"); */
+    margin: 10px;
+}
+
+.linkedin {
+    box-sizing: border-box;
+    height:64px;
+    width: 64px;
+    margin: 10px;
+    /* background-image: url("../styles/icons/linkedin.png"); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sub{
     margin-top: 0;
     padding-top: 15px;

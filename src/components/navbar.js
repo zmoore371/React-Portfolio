@@ -1,43 +1,47 @@
 import React from 'react';
 
-// const styles = {
-//     nav: {
-//         textDecoration: "none",
-//         display: "flex",
-//         flexDirection: "row",
-//         alignItems: "center",
-//         height: "75px"
-//     },
-//     reference: {
-//         backgroundColor: "#12263A",
-//         width: "80%",
-//         fontSize: "20px",
-//         textDecoration: "none",
-//         padding: "10px 0px 10px 0px"
-//     }
+const c = "reference"
+const pages = 
+    {about: "About",
+     work: "Work",
+     contact: "Contact",
+     resume: "Resume"
+    }
 
 
-// }
-
-
-
-function Navbar() {
-
-    // return (
-    //     <nav style={styles.nav}>
-    //         <a style={styles.reference} href="/">About Me</a>
-    //         <a style={styles.reference}>Work</a>
-    //         <a style={styles.reference}>Contact</a>
-    //         <a style={styles.reference}>Resume</a>
-    //     </nav>
-    // )
+function Navbar({ currentPage, handlePageChange }) {
 
     return(
         <nav>
-            <a className="reference" href="#about-me">About</a>
-            <a className="reference" href="#work">Work</a>
-            <a className="reference" href="#contact-me">Contact</a>
-            <a className="reference" href="f">Resume</a>
+            <a 
+                className={currentPage === "About", "reference"}
+                href="#About"
+                onClick={() => handlePageChange("About")}
+            >
+                About
+            </a>
+            <a 
+                className={currentPage === "Work", "reference"}
+                href="#Work"
+                onClick={() => handlePageChange("Work")}
+            >
+                Work
+            </a>
+            <a
+                className={currentPage === "Contact", "reference"}
+                href="#Contact"
+                onClick={() => handlePageChange("Contact")}
+            >
+                Contact 
+            </a>
+            <a
+                className={currentPage === "Resume", "reference"}
+                href="#Resume"
+                onClick={() => handlePageChange("Resume")}
+            >
+                Resume
+            </a>
+            
         </nav>
     )
 

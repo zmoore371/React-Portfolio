@@ -21,7 +21,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 About
             </a>
             <a 
-                className={currentPage === "Work", "reference"}
+                className={currentPage === "Work" ? "reference active" : "reference" , "reference"}
                 href="#Work"
                 onClick={() => handlePageChange("Work")}
             >

@@ -64,8 +64,9 @@ nav{
     color: var(--aeroblue)
 }
 
+
 .footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 6rem;
@@ -79,7 +80,6 @@ nav{
     box-sizing: border-box;
     height: 64px;
     width: 64px;
-    /* background-image: url("../styles/icons/github.png"); */
     margin: 10px;
 }
 
@@ -88,14 +88,53 @@ nav{
     height:64px;
     width: 64px;
     margin: 10px;
-    /* background-image: url("../styles/icons/linkedin.png"); */
 }
 
+.work {
+    display: flex;
+    flex-direction: column;
+}
 
+.large-card{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    border: 5px solid var(--teal);
+    height: 21.8rem;
+    text-decoration: none;
+    position: relative;
+    margin-left: 4%;
+    margin-top: 30px;
+}
 
+.large-card:hover{
+    box-shadow: inset 0px 0px 8px var(--teal), 0 0 15px var(--teal)  
+}
 
+.label{
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(132deg, rgb(31, 207, 195) 47.57%, rgb(31, 145, 207) 100.00%);
+    bottom: 10%;
+    height: 75px;
+    color: var(--darkblue)
+}
 
+.label h3{
+    font-size: 26px;
+}
 
+.large-card a{
+    display:block;
+    width: 100%;
+}
+
+.repo-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--darkblue);
+    padding-left: 15px;
+}
 
 
 
@@ -154,10 +193,6 @@ nav{
     padding: 0px 10px 0px 10px;
 }
 
-.work {
-    display: flex;
-    flex-direction: column;
-}
 
 .work-aside{
     border-bottom: 5px solid var(--aquamarine);
@@ -165,42 +200,9 @@ nav{
     text-indent: 25px;
 }
 
-.large-card{
-    display:flex;
-    flex-direction: column;
-    width: 90%;
-    border: 5px solid var(--teal);
-    height: 21.8rem;
-    text-decoration: none;
-    position: relative;
-    margin-left: 4%;
-    margin-top: 30px;
 
-}
 
-.large-card:hover{
-    box-shadow: inset 0px 0px 8px var(--teal), 0 0 15px var(--teal);
-      
-}
 
-.label{
-    position: absolute;
-    padding: 10px 10px 10px 10px;
-    background: linear-gradient(132deg, rgb(31, 207, 195) 47.57%, rgb(31, 145, 207) 100.00%);
-    bottom: 10%;
-    height: 75px;
-    color: var(--darkblue)
-
-}
-
-.label h3{
-    font-size: 26px;
-}
-
-.large-card a{
-    display:block;
-    width: 100%;
-}
 
 /* #card1{
     background-image: url("../assets/images/project-screenshot/recipe-generator.png"); 
@@ -230,12 +232,6 @@ nav{
     background-position: center;
 } */
 
-.repo-link{
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--darkblue);
-    padding-left: 15px;
-}
 
 .contact-me{
     display: flex;

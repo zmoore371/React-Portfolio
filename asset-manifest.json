@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ff1660ac.css",
+    "main.js": "/React-Portfolio/static/js/main.a51a5134.js",
+    "static/media/recipe-generator.png": "/React-Portfolio/static/media/recipe-generator.67b3ac14df0e70e97215.png",
+    "static/media/review.png": "/React-Portfolio/static/media/review.d4c649fa7917bbe9453c.png",
+    "static/media/weather-dashboard.png": "/React-Portfolio/static/media/weather-dashboard.22b9c99ea1e2acc514d5.png",
+    "static/media/scheduler.png": "/React-Portfolio/static/media/scheduler.34a60b7a1f625a8b8cfe.png",
+    "static/media/budget.png": "/React-Portfolio/static/media/budget.ac22162ff2bfbcf715c1.png",
+    "static/media/sql.PNG": "/React-Portfolio/static/media/sql.e882c46ef8fafaef9d74.PNG",
+    "index.html": "/React-Portfolio/index.html",
+    "main.ff1660ac.css.map": "/React-Portfolio/static/css/main.ff1660ac.css.map",
+    "main.a51a5134.js.map": "/React-Portfolio/static/js/main.a51a5134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff1660ac.css",
+    "static/js/main.a51a5134.js"
+  ]
+}

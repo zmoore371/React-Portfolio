@@ -75,7 +75,6 @@ nav{
     padding-bottom: 0;
 }
 
-/* set icons at footer */
 .github {
     box-sizing: border-box;
     height: 64px;
@@ -140,74 +139,6 @@ nav{
     bottom: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sub{
-    margin-top: 0;
-    padding-top: 15px;
-    font-family: Ephesis; 
-}
-
-.upper-img{
-    display: flex;
-    /* background-image: url("../assets/images/412534-c.jpg"); */
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    color: var(--darkblue)
-}
-
-.about-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-me-aside{
-    border-bottom: 5px solid var(--aquamarine);
-    width: 100%;
-    color: var(--darkblue);
-    text-indent: 25px;
-
-}
-
-.about-me-main{
-    text-indent: 50px;
-    font-size: 22px;
-    color: var(--darkblue);
-    padding: 0px 10px 0px 10px;
-}
-
-
-.work-aside{
-    border-bottom: 5px solid var(--aquamarine);
-    color: var(--darkblue);
-    text-indent: 25px;
-}
-
-
-
-
-
 #card1{
     background-image: url("../styles/screenshots/recipe-generator.png"); 
     background-size: cover;
@@ -232,27 +163,49 @@ nav{
     background-position: center;
 }
 
-/* #card5{
-    background-image: url("../assets/images/project-screenshot/password-generator.png");
+#card5{
+    background-image: url("../styles/screenshots/budget.png");
     background-size: cover;
     background-position: center;
-} */
+}
 
+#card6{
+    background-image: url("../styles/screenshots/sql.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-main{
+    text-indent: 50px;
+    font-size: 22px;
+    color: var(--darkblue);
+    padding: 0px 10px 0px 10px;
+}
 
 .contact-me{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }   
 
-.contact-me-side{
-    color: var(--darkblue);
-    border-bottom: 5px solid var(--aquamarine);
-    text-indent: 25px;
+.contacts {
+    text-align: center;
 }
 
 .contact-list{
     text-decoration: none;
     list-style-type: none;
+}
+
+.rheader{
+    text-align: center;
 }
 
 @media (min-width: 770px) {
@@ -262,13 +215,7 @@ nav{
     }
 
     .about-me{
-        flex-direction: row;
         padding-top: 15px;
-    }
-
-    .about-me-aside{
-        border-bottom: none;
-        
     }
 
     .about-me-main{
@@ -284,7 +231,6 @@ nav{
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-    
     }
 
     .large-card{
@@ -293,7 +239,4 @@ nav{
         margin-left: 6.5%;
     }
 
-    /* .repo-link{
-        text-indent:60px;
-    } */
 } 

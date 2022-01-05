@@ -1,14 +1,5 @@
 import React from 'react';
 
-const c = "reference"
-const pages = 
-    {about: "About",
-     work: "Work",
-     contact: "Contact",
-     resume: "Resume"
-    }
-
-
 function Navbar({ currentPage, handlePageChange }) {
 
     return(

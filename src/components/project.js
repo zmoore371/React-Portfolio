@@ -6,7 +6,7 @@ import Resume from './pages/Resume';
 import Work from './pages/Work';
 
 export default function Project() {
-    const [currentPage, setCurrentPage] = useState("Home")
+    const [currentPage, setCurrentPage] = useState("About")
 
     const renderPage = () => {
         if(currentPage ==="About") {

@@ -33,16 +33,16 @@ export default function Work() {
                     </div>
                 </a>
                 
-                <a href="https://zmoore371.github.io/Homework-Week-4/" className="large-card" id="card5">
+                <a href="https://github.com/zmoore371/Online-Offline-Budget-Tracker" className="large-card" id="card5">
                     <div className="label">
-                      <h3>Javascript Quiz</h3>
-                      <a className="repo-link" href="https://github.com/zmoore371/Homework-Week-4">Link to Repository</a>
+                      <h3>Budget Tracker PWA</h3>
+                      <a className="repo-link" href="https://budget-tracker-9001.herokuapp.com/">Link to Repository</a>
                     </div>
                 </a>
                 
-                <a href="https://zmoore371.github.io/Homework-Week-3/" className="large-card" id="card6">
+                <a href="https://github.com/zmoore371/Homework-Week-12-Employee-Tracker" className="large-card" id="card6">
                     <div className="label">
-                      <h3>Password Generator</h3>
+                      <h3>SQL Command Line</h3>
                       <a className="repo-link" href="https://github.com/zmoore371/Homework-Week-3">Link to Repository</a>
                     </div>
                 </a>  
